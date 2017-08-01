@@ -14,6 +14,8 @@
 		C02DD4331F306574000409B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02DD4311F306574000409B0 /* LaunchScreen.storyboard */; };
 		C02DD43E1F306574000409B0 /* __1_______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02DD43D1F306574000409B0 /* __1_______Tests.swift */; };
 		C02DD4491F306574000409B0 /* __1_______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02DD4481F306574000409B0 /* __1_______UITests.swift */; };
+		C02DD4571F306EDD000409B0 /* DemoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02DD4561F306EDD000409B0 /* DemoLabel.swift */; };
+		C02DD4591F306EF0000409B0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02DD4581F306EF0000409B0 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C02DD4441F306574000409B0 /* 8-1-设置模型数据UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "8-1-设置模型数据UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02DD4481F306574000409B0 /* __1_______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__1_______UITests.swift"; sourceTree = "<group>"; };
 		C02DD44A1F306574000409B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02DD4561F306EDD000409B0 /* DemoLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoLabel.swift; sourceTree = "<group>"; };
+		C02DD4581F306EF0000409B0 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				C02DD4281F306574000409B0 /* AppDelegate.swift */,
 				C02DD42A1F306574000409B0 /* ViewController.swift */,
+				C02DD4561F306EDD000409B0 /* DemoLabel.swift */,
+				C02DD4581F306EF0000409B0 /* Person.swift */,
 				C02DD42C1F306574000409B0 /* Main.storyboard */,
 				C02DD42F1F306574000409B0 /* Assets.xcassets */,
 				C02DD4311F306574000409B0 /* LaunchScreen.storyboard */,
@@ -261,6 +267,8 @@
 			files = (
 				C02DD42B1F306574000409B0 /* ViewController.swift in Sources */,
 				C02DD4291F306574000409B0 /* AppDelegate.swift in Sources */,
+				C02DD4591F306EF0000409B0 /* Person.swift in Sources */,
+				C02DD4571F306EDD000409B0 /* DemoLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
